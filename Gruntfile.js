@@ -1,6 +1,8 @@
 module.exports = function(grunt) {
-  grunt.loadNpmTasks('grunt-handlebars');
-  grunt.loadNpmTasks('grunt-requirejs');
+  
+  // Load grunt tasks automatically
+  require('load-grunt-tasks')(grunt);
+
   grunt.initConfig({
     watch: {
       templates: {
@@ -27,4 +29,9 @@ module.exports = function(grunt) {
       }
     }
   });
+
+  grunt.registerTask('default', [
+    'watch'
+  ]);
+
 };
