@@ -1,0 +1,27 @@
+{
+  "name": "friend-of-tokyo",
+  "version": "1.0.0",
+  "description": "Friend of Tokyo is an HTML5 puzzle game where you play as a giant dinosaur monster fighting against the powers that be in the city of Tokyo.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdata/friend-of-tokyo.git"
+  },
+  "keywords": [
+    "LD48"
+  ],
+  "author": "Chris Joel <chris@scriptolo.gy>",
+  "bugs": {
+    "url": "https://github.com/cdata/friend-of-tokyo/issues"
+  },
+  "homepage": "https://github.com/cdata/friend-of-tokyo",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-handlebars": "0.0.6",
+    "grunt-requirejs": "^0.4.2",
+    "load-grunt-tasks": "^2.0.0"
+  }
+}
